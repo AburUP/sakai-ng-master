@@ -1,0 +1,9 @@
+{"/api/*": {
+    "target": "https://app.utm.edu.ec/becas/api/publico/",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+        "^/api": ""
+    }
+}
+}

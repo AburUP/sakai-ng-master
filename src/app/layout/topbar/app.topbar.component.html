@@ -1,0 +1,39 @@
+<div class="layout-topbar">
+    <a class="layout-topbar-logo" routerLink="">
+        <img src="assets/layout/images/logo.png" alt="logo">
+        <span>PT-UTM</span>
+    </a>
+
+    <button #menubutton class="p-link layout-menu-button layout-topbar-button" (click)="layoutService.onMenuToggle()">
+        <i class="pi pi-bars"></i>
+    </button>
+
+    <button #topbarmenubutton class="p-link layout-topbar-menu-button layout-topbar-button" (click)="layoutService.showProfileSidebar()">
+        <i class="pi pi-ellipsis-v"></i>
+    </button>
+
+    <div #topbarmenu class="layout-topbar-menu" [ngClass]="{'layout-topbar-menu-mobile-active': layoutService.state.profileSidebarVisible}">
+        <button class="p-link layout-topbar-button" (click)="showModalDialog()">
+            <i class="pi pi-search"></i>
+            <span>Buscar</span>
+        </button>
+        <p-dialog 
+        header="Buscar opción" 
+        [(visible)]="displayModal" 
+        [modal]="true" 
+        [style]="{width: '50vw', height : '40vw'}" 
+        [baseZIndex]="10000"
+        [draggable]="false" 
+        [resizable]="false"
+        [dismissableMask]="true" 
+        >
+        <app-findmenu></app-findmenu>
+</p-dialog>
+        <button class="p-link" (click)="menu.toggle($event)">
+            <p-chip label="Alexander Velásquez" image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png" styleClass="mr-2" ></p-chip>
+            <p-tieredMenu #menu [model]="items" [popup]="true"></p-tieredMenu>
+            <!-- <p-menu #menu [popup]="true" [model]="items"></p-menu> -->
+        </button>
+        
+    </div>
+</div>

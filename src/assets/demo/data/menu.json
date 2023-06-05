@@ -1,0 +1,64 @@
+{
+	"data": [
+		{
+			"id_menu": "1000",
+			"nombre": "Actualizacion de datos",
+			"descripcion": "Actualizar los datos del usuario como su residencia, titulos, blablabla",
+			"image": "bamboo-watch.jpg",
+			"id_rol": 6,
+			"rol": "Estudiante",
+			"ruta": "https://google.com.ec",
+			"tag": "datos, curriculum, informacion"
+		},
+		{
+			"id_menu": "1001",
+			"nombre": "Inscripcion de Materias",
+			"descripcion": "Inscribirse en las materias que requiere ver, blablabla",
+			"image": "black-watch.jpg",
+			"id_rol": 6,
+			"rol": "Estudiante",
+			"ruta": "https://www.youtube.com",
+			"tag": "matriculacion, inscripcion, anotarme"
+		},
+		{
+			"id_menu": "1002",
+			"nombre": "Mis Notas",
+			"descripcion": "Revisar mis notas en las materias que estas inscrito, blablabla",
+			"image": "blue-band.jpg",
+			"id_rol": 6,
+			"rol": "Estudiante",
+			"ruta": "https://accounts.autodesk.com",
+			"tag": "notas, revision, acta"
+		},
+		{
+			"id_menu": "1003",
+			"nombre": "solicitud de cambios de paralelo",
+			"descripcion": "Solicitar cambio de paralelo a uno segun su horario blablabla",
+			"image": "blue-t-shirt.jpg",
+			"id_rol": 6,
+			"rol": "Estudiante",
+			"ruta": "https://www.intermatico.com",
+			"tag": "cambio, paralelo, curso"
+		},
+		{
+			"id_menu": "1004",
+			"nombre": "Mis marcaciones",
+			"descripcion": "Verificar las fechas que se tengan marcaciones blablabla",
+			"image": "bracelet.jpg",
+			"id_rol": 65,
+			"rol": "Administrativo",
+			"ruta": "https://www.facebook.com",
+			"tag": "marcaciones, biometrico, atraso"
+		},
+		{
+			"id_menu": "1005",
+			"nombre": "Actualizacion de datos",
+			"descripcion": "Actualizar los datos del usuario como su residencia, titulos, blablabla",
+			"image": "bamboo-watch.jpg",
+			"id_rol": 65,
+			"rol": "Administrativo",
+			"ruta": "https://www.utm.edu.ec",
+			"tag": "datos, curriculum, informacion"
+		}
+	]
+}
